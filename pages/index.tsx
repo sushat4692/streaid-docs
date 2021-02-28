@@ -1,25 +1,29 @@
 import React from "react";
 
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
+// Context
+import LocaleContext from "../context/locale";
 
 // Component
+import Meta from "../components/Meta";
 import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+import Introduction from "../components/Introduction";
+import Install from "../components/Install";
+import History from "../components/History";
+import Footer from "../components/Footer";
 
 const Home: React.FC = () => {
     return (
-        <div className="outer">
-            <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+        <LocaleContext.Provider value="en-us">
+            <Meta />
+            <Nav />
 
-            <div className="wrapper">
-                <Nav></Nav>
-
-                <p>Test</p>
-            </div>
-        </div>
+            <Hero />
+            <Introduction />
+            <Install />
+            <History />
+            <Footer />
+        </LocaleContext.Provider>
     );
 };
 

@@ -1,9 +1,1 @@
 @tailwind base;
-
-.outer {
-  @apply relative bg-white overflow-hidden;
-}
-
-.wrapper {
-  @apply max-w-7xl mx-auto;
-}

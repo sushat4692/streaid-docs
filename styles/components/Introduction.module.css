@@ -1,0 +1,18 @@
+.section {
+    @apply container mx-auto px-2 my-10;
+}
+
+.header {
+    @apply md:text-5xl sm:text-4xl text-2xl font-extrabold mb-8;
+}
+.lead {
+    @apply md:text-xl sm:text-lg text-base leading-7 mb-4;
+}
+
+.list {
+    @apply list-disc;
+    margin-left: 1.6em;
+}
+.list__item + .list__item {
+    @apply mt-2;
+}

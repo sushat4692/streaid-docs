@@ -1,0 +1,8 @@
+.wrap {
+    background: #8C45F7;
+    @apply text-white;
+}
+
+.inner {
+    @apply container text-center mx-auto py-2 px-2;
+}

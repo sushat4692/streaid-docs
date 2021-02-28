@@ -1,0 +1,15 @@
+.wrap {
+    background: #8C45F7;
+}
+
+.inner {
+    @apply container mx-auto flex justify-center items-center md:h-72 sm:h-64 h-52;
+}
+
+.title {
+    @apply md:text-5xl sm:text-4xl text-2xl text-white font-extrabold;
+}
+
+.title__icon {
+    @apply mr-2;
+}
