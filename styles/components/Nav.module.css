@@ -1,3 +1,7 @@
 .container {
-    @apply absolute md:top-6 top-3 md:right-6 right-3;
+    @apply absolute flex md:top-6 top-3 md:right-6 right-3;
+}
+
+.button + .button {
+    @apply ml-2
 }

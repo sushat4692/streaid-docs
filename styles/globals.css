@@ -38,7 +38,7 @@
 }
 
 .button--outline {
-    @apply border-white;
+    @apply border-white border-opacity-50;
 }
 
 .link-text {

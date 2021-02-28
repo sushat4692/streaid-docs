@@ -20,6 +20,10 @@ export const useLocale = () => {
         }
     })();
 
+    const getLocale = () => {
+        return locale;
+    };
+
     const getMessage = (values: { id: string; defaultMessage?: string }) => {
         if (!messages[values.id]) {
             return values.defaultMessage || "";
@@ -29,6 +33,7 @@ export const useLocale = () => {
     };
 
     return {
+        getLocale,
         getMessage,
     };
 };

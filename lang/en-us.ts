@@ -7,6 +7,8 @@ const messages = {
     /**
      * Component
      */
+    // Nav
+    "Nav.Language.Switch": "日本語",
     // Introduction
     "Component.Introducntion.Header": "Introduction",
     "Component.Introducntion.Description":
