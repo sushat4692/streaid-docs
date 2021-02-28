@@ -1,1 +1,50 @@
 @tailwind base;
+
+.section:nth-of-type(even) {
+    @apply bg-purple-50;
+}
+
+.section__inner {
+    @apply container mx-auto px-4 md:py-20 py-8;
+}
+
+.headline {
+    @apply md:text-5xl sm:text-4xl text-2xl font-extrabold mb-4 md:mb-8;
+}
+
+.headline--sub {
+    @apply md:text-3xl sm:text-2xl text-lg font-bold mb-2 mt-4;
+}
+
+.lead {
+    @apply md:text-xl sm:text-lg text-base leading-7 mb-4;
+}
+
+
+.list {
+    @apply list-disc;
+    margin-left: 1.6em;
+}
+.list__item + .list__item {
+    @apply mt-2;
+}
+.list__item__icon {
+    @apply mr-2;
+}
+
+.button {
+    @apply inline-flex items-center px-4 md:px-6 py-2 md:py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+    background-color: #8C45F7;
+}
+
+.button--outline {
+    @apply border-white;
+}
+
+.link-text {
+    @apply text-indigo-600 hover:text-indigo-800 hover:underline;
+}
+
+.help-text {
+    @apply mt-4 text-gray-700 text-sm;
+}

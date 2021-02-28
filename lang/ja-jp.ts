@@ -26,6 +26,10 @@ const messages = {
     "Component.History.Header": "更新履歴",
     "Component.History.v0.0.2": "package.jsonの整理とLintチェック",
     "Component.History.v0.0.1": "とりあえず公開",
+    // Author
+    "Component.Author.Header": "作者",
+    "Component.Author.Description": "Author",
+    "Component.Author.HelpText": `※ もし不具合など見つかりましたら<a href="https://github.com/sushat4692/twitch-support-tool/issues" target="_blank" rel="noreferrer" class="link-text">GitHubのIssue</a>やTwitchやTwitterのDMを送っていただければ確認するようにいたします。`,
 };
 
 export default messages;

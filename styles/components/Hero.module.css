@@ -3,7 +3,7 @@
 }
 
 .inner {
-    @apply container mx-auto flex justify-center items-center md:h-72 sm:h-64 h-52;
+    @apply container mx-auto flex justify-center items-center md:h-72 sm:h-64 h-52 pt-6 md:pt-0;
 }
 
 .title {
@@ -11,5 +11,5 @@
 }
 
 .title__icon {
-    @apply mr-2;
+    @apply mr-3 md:text-7xl sm:text-6xl text-4xl;
 }

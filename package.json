@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "docs": "npm run build && npm run export"
+    "docs": "npm run build && npm run export",
+    "lint": "eslint --ext js,ts,tsx components context lang pages util",
+    "lint:fix": "eslint --fix --ext js,ts,tsx components context lang pages util"
   },
   "dependencies": {
     "bootstrap-icons": "^1.4.0",

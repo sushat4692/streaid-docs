@@ -26,6 +26,10 @@ const messages = {
     "Component.History.Header": "Update History",
     "Component.History.v0.0.2": "Arranged package.json and Lint again",
     "Component.History.v0.0.1": "Published temporary",
+    // Author
+    "Component.Author.Header": "Author",
+    "Component.Author.Description": "Author",
+    "Component.Author.HelpText": `* If you notice something issue, please feel free to post to <a href="https://github.com/sushat4692/twitch-support-tool/issues" target="_blank" rel="noreferrer" class="link-text">GitHub Issue</a> or send DM to my Twitch or Twitter, then I'll check your issueing.`,
 };
 
 export default messages;
