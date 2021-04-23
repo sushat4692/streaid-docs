@@ -26,6 +26,10 @@ const messages = {
     "Component.Install.Button": "Download latest Version",
     // History
     "Component.History.Header": "Update History",
+    "Component.History.v0.0.4-1": "Updated UI",
+    "Component.History.v0.0.4-2": "Implemented User memo",
+    "Component.History.v0.0.4-3": "Implemented Chat alert",
+    "Component.History.v0.0.3": "Implemented Menu and Licese page",
     "Component.History.v0.0.2": "Arranged package.json and Lint again",
     "Component.History.v0.0.1": "Published temporary",
     // Author

@@ -26,6 +26,10 @@ const messages = {
     "Component.Install.Button": "最新版をダウンロード",
     // History
     "Component.History.Header": "更新履歴",
+    "Component.History.v0.0.4-1": "UIの変更",
+    "Component.History.v0.0.4-2": "ユーザメモ機能の実装",
+    "Component.History.v0.0.4-3": "チャットアラート機能の実装",
+    "Component.History.v0.0.3": "メニューとライセンスページを作成",
     "Component.History.v0.0.2": "package.jsonの整理とLintチェック",
     "Component.History.v0.0.1": "とりあえず公開",
     // Author
