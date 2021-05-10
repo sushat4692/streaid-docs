@@ -26,6 +26,8 @@ const messages = {
     "Component.Install.Button": "最新版をダウンロード",
     // History
     "Component.History.Header": "更新履歴",
+    "Component.History.v0.0.6-1": "カスタムコマンド設定機能の実装",
+    "Component.History.v0.0.6-2": "リクエストイベントの整理",
     "Component.History.v0.0.5-1": "設定ページのUI整理",
     "Component.History.v0.0.5-2":
         "シャウトアウトアラートの実装（情報表示、クリップ再生）",

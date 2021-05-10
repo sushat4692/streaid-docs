@@ -26,6 +26,8 @@ const messages = {
     "Component.Install.Button": "Download latest Version",
     // History
     "Component.History.Header": "Update History",
+    "Component.History.v0.0.6-1": "Implemented Command Function",
+    "Component.History.v0.0.6-2": "Arranged request event functions",
     "Component.History.v0.0.5-1": "Arranged setting page's UI",
     "Component.History.v0.0.5-2":
         "Implemented Shoutout Alert (Display streamer info/clip)",
