@@ -26,6 +26,13 @@ const messages = {
     "Component.Install.Button": "Download latest Version",
     // History
     "Component.History.Header": "Update History",
+    "Component.History.v0.1.1-1": "Updated dependency libraries",
+    "Component.History.v0.1.1-2": "Fixed memory leaking bug",
+    "Component.History.v0.1.1-3":
+        "Fixed word dictionaly bug (when boot the application, word count was initialized)",
+    "Component.History.v0.1.1-4":
+        "Removed shoutout button from Raider/Host list view (Raider/Host username is only displayname, so can't shoutout)",
+    "Component.History.v0.1.0": "Implemented translate word/sentence functions",
     "Component.History.v0.0.6-1": "Implemented Command Function",
     "Component.History.v0.0.6-2": "Arranged request event functions",
     "Component.History.v0.0.5-1": "Arranged setting page's UI",

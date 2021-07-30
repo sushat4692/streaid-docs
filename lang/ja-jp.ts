@@ -26,6 +26,13 @@ const messages = {
     "Component.Install.Button": "最新版をダウンロード",
     // History
     "Component.History.Header": "更新履歴",
+    "Component.History.v0.1.1-1": "依存ライブラリの更新",
+    "Component.History.v0.1.1-2": "メモリーリークバグの修正",
+    "Component.History.v0.1.1-3":
+        "単語辞書の修正 (アプリ起動時に検索回数がリセットされてしまうバグ)",
+    "Component.History.v0.1.1-4":
+        "レイド/ホストページからシャウトアウトボタンを削除 (レイド/ホストのユーザ名が表示名しか取得できないため)",
+    "Component.History.v0.1.0": "単語辞書（英>日のみ）、文章翻訳機能の追加",
     "Component.History.v0.0.6-1": "カスタムコマンド設定機能の実装",
     "Component.History.v0.0.6-2": "リクエストイベントの整理",
     "Component.History.v0.0.5-1": "設定ページのUI整理",
