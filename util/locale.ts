@@ -1,7 +1,7 @@
-import { useContext } from "react";
+import { useCallback, useContext } from "react";
 
 // Context
-import LocaleContext from "../context/locale";
+import LocaleContext, { LocaleString } from "../context/locale";
 
 // Messages
 import enMessages from "../lang/en-us";
@@ -9,28 +9,38 @@ import jpMessages from "../lang/ja-jp";
 
 export const useLocale = () => {
     const locale = useContext(LocaleContext);
-    const messages = ((): { [key: string]: string } => {
-        switch (locale) {
-            case "en-us":
-                return enMessages;
-            case "ja-jp":
-                return jpMessages;
-            default:
-                return {};
-        }
-    })();
-
-    const getLocale = () => {
+    const getLocale = useCallback(() => {
         return locale;
-    };
+    }, [locale]);
 
-    const getMessage = (values: { id: string; defaultMessage?: string }) => {
-        if (!messages[values.id]) {
-            return values.defaultMessage || "";
-        }
+    const getMessage = useCallback(
+        (
+            values: { id: string; defaultMessage?: string },
+            lc?: LocaleString
+        ) => {
+            if (!lc) {
+                lc = locale;
+            }
 
-        return messages[values.id];
-    };
+            const messages = (() => {
+                switch (lc) {
+                    case "en-us":
+                        return enMessages;
+                    case "ja-jp":
+                        return jpMessages;
+                    default:
+                        return {};
+                }
+            })();
+
+            if (!messages[values.id]) {
+                return values.defaultMessage || "";
+            }
+
+            return messages[values.id];
+        },
+        [locale]
+    );
 
     return {
         getLocale,

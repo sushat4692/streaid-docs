@@ -1,5 +1,7 @@
 import React from "react";
 
-const LocaleContext = React.createContext("en-us");
+export type LocaleString = "ja-jp" | "en-us";
+
+const LocaleContext = React.createContext<LocaleString>("en-us");
 
 export default LocaleContext;
