@@ -15,7 +15,7 @@ type Data = {
 };
 
 const version: Data = {
-    latest: "0.1.1",
+    latest: process.env.npm_package_version,
     history: [],
 };
 
