@@ -26,6 +26,14 @@ const messages = {
     "Component.Install.Button": "最新版をダウンロード",
     // History
     "Component.History.Header": "更新履歴",
+    "Component.History.v0.3.0-1": "依存ライブラリの更新",
+    "Component.History.v0.3.0-2":
+        "レイド時のユーザ名・表示名を別々に取得するように修正",
+    "Component.History.v0.3.0-3":
+        "サインアウト時に情報が全て消えてしまう不具合の修正",
+    "Component.History.v0.2.1": "辞書機能が動作していなかった不具合の修正",
+    "Component.History.v0.2.0": "Discordへの辞書検索結果の投稿機能の追加",
+    "Component.History.v0.1.2": "バージョンチェック機能の追加",
     "Component.History.v0.1.1-1": "依存ライブラリの更新",
     "Component.History.v0.1.1-2": "メモリーリークバグの修正",
     "Component.History.v0.1.1-3":

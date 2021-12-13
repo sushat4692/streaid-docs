@@ -26,6 +26,14 @@ const messages = {
     "Component.Install.Button": "Download latest Version",
     // History
     "Component.History.Header": "Update History",
+    "Component.History.v0.3.0-1": "Updated dependencies",
+    "Component.History.v0.3.0-2":
+        "Added/Separated username and displayname on Raided event",
+    "Component.History.v0.3.0-3": "Fixed signout issues",
+    "Component.History.v0.2.1": "Fixed word dictionary",
+    "Component.History.v0.2.0":
+        "Added posting function consulted dictionary words to Discord channel",
+    "Component.History.v0.1.2": "Implemented version check function",
     "Component.History.v0.1.1-1": "Updated dependency libraries",
     "Component.History.v0.1.1-2": "Fixed memory leaking bug",
     "Component.History.v0.1.1-3":

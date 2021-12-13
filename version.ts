@@ -19,6 +19,42 @@ const version: Data = {
     history: [],
 };
 
+// v0.3.0
+version.history.push({
+    version: "0.3.0",
+    "en-us": [
+        enMessages["Component.History.v0.3.0-1"],
+        enMessages["Component.History.v0.3.0-2"],
+        enMessages["Component.History.v0.3.0-3"],
+    ],
+    "ja-jp": [
+        jpMessages["Component.History.v0.3.0-1"],
+        jpMessages["Component.History.v0.3.0-2"],
+        jpMessages["Component.History.v0.3.0-3"],
+    ],
+});
+
+// v0.2.1
+version.history.push({
+    version: "0.2.1",
+    "en-us": [enMessages["Component.History.v0.2.1"]],
+    "ja-jp": [jpMessages["Component.History.v0.2.1"]],
+});
+
+// v0.2.0
+version.history.push({
+    version: "0.2.0",
+    "en-us": [enMessages["Component.History.v0.2.0"]],
+    "ja-jp": [jpMessages["Component.History.v0.2.0"]],
+});
+
+// v0.1.2
+version.history.push({
+    version: "0.1.2",
+    "en-us": [enMessages["Component.History.v0.1.2"]],
+    "ja-jp": [jpMessages["Component.History.v0.1.2"]],
+});
+
 // v0.1.1
 version.history.push({
     version: "0.1.1",

@@ -16,6 +16,52 @@ const HistoryComponent: React.FC = () => {
                     })}
                 </h2>
 
+                <h3 className="headline--sub">v0.3.0</h3>
+                <ul className="list">
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.3.0-1",
+                        })}
+                    </li>
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.3.0-2",
+                        })}
+                    </li>
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.3.0-3",
+                        })}
+                    </li>
+                </ul>
+
+                <h3 className="headline--sub">v0.2.1</h3>
+                <ul className="list">
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.2.1",
+                        })}
+                    </li>
+                </ul>
+
+                <h3 className="headline--sub">v0.2.0</h3>
+                <ul className="list">
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.2.0",
+                        })}
+                    </li>
+                </ul>
+
+                <h3 className="headline--sub">v0.1.2</h3>
+                <ul className="list">
+                    <li className="list__item">
+                        {locale.getMessage({
+                            id: "Component.History.v0.1.2",
+                        })}
+                    </li>
+                </ul>
+
                 <h3 className="headline--sub">v0.1.1</h3>
                 <ul className="list">
                     <li className="list__item">
