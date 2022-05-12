@@ -25,7 +25,7 @@ const InstallComponent: React.FC = () => {
                 </p>
 
                 <a
-                    href="https://github.com/sushat4692/twitch-support-tool/releases/latest"
+                    href="https://github.com/sushat4692/streaid/releases/latest"
                     target="_blank"
                     rel="noreferrer"
                     className="button"

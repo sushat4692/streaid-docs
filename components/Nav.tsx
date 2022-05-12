@@ -20,7 +20,7 @@ const Nav: React.FC = () => {
     return (
         <div className={styles.container}>
             <a
-                href="https://github.com/sushat4692/twitch-support-tool"
+                href="https://github.com/sushat4692/streaid"
                 target="_blank"
                 rel="noreferrer"
                 className={`button button--outline ${styles.button}`}

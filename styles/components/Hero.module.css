@@ -9,7 +9,3 @@
 .title {
     @apply md:text-5xl sm:text-4xl text-2xl text-white font-extrabold;
 }
-
-.title__icon {
-    @apply mr-3 md:text-7xl sm:text-6xl text-4xl;
-}

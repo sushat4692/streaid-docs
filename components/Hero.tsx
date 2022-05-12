@@ -12,10 +12,9 @@ const HeroComponent: React.FC = () => {
         <div className={styles.wrap}>
             <div className={styles.inner}>
                 <h1 className={styles.title}>
-                    <i className={`bi bi-twitch ${styles.title__icon}`}></i>
                     {locale.getMessage({
                         id: "Common.Title",
-                        defaultMessage: "Twitch Support Tool",
+                        defaultMessage: "Streaid",
                     })}
                 </h1>
             </div>

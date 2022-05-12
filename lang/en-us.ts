@@ -2,7 +2,7 @@ const messages = {
     /**
      * Common
      */
-    "Common.Title": "Twitch Support Tool",
+    "Common.Title": "Streaid",
 
     /**
      * Component
@@ -12,7 +12,7 @@ const messages = {
     // Introduction
     "Component.Introducntion.Header": "Introduction",
     "Component.Introducntion.Description":
-        "Twitch Support Tool has several functions for supporting your streaming.",
+        "Streaid has several functions for supporting your streaming.",
     "Component.Introducntion.Feature1":
         "Can record the user information who chatted, raided or hosted to your stream, and can post Shoutout message when you like it to do.",
     "Component.Introducntion.Feature2":
@@ -26,6 +26,12 @@ const messages = {
     "Component.Install.Button": "Download latest Version",
     // History
     "Component.History.Header": "Update History",
+    "Component.History.v0.4.0-1": "Renamed app name to 'Streaid'",
+    "Component.History.v0.4.0-2": "Updated dependency libraries",
+    "Component.History.v0.4.0-3":
+        "Optimized JP->EN dictionary database (Reduced app volume size)",
+    "Component.History.v0.3.2": "Fixed dependency issues",
+    "Component.History.v0.3.1": "Implemented JP->EN dictionary command",
     "Component.History.v0.3.0-1": "Updated dependencies",
     "Component.History.v0.3.0-2":
         "Added/Separated username and displayname on Raided event",
@@ -55,7 +61,7 @@ const messages = {
     // Author
     "Component.Author.Header": "Author",
     "Component.Author.Description": "Author",
-    "Component.Author.HelpText": `* If you notice something issue, please feel free to post to <a href="https://github.com/sushat4692/twitch-support-tool/issues" target="_blank" rel="noreferrer" class="link-text">GitHub Issue</a> or send DM to my Twitch or Twitter, then I'll check your issueing.`,
+    "Component.Author.HelpText": `* If you notice something issue, please feel free to post to <a href="https://github.com/sushat4692/streaid/issues" target="_blank" rel="noreferrer" class="link-text">GitHub Issue</a> or send DM to my Twitch or Twitter, Thank you.`,
 };
 
 export default messages;

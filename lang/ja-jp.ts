@@ -2,7 +2,7 @@ const messages = {
     /**
      * Common
      */
-    "Common.Title": "Twitchサポートツール",
+    "Common.Title": "Streaid",
 
     /**
      * Component
@@ -12,7 +12,7 @@ const messages = {
     // Introduction
     "Component.Introducntion.Header": "紹介",
     "Component.Introducntion.Description":
-        "Twitchサポートツールはストリーム時のわずらわしい操作をサポートする機能を持っています。",
+        "Streaidはストリーム時のわずらわしい操作をサポートする機能を持っています。",
     "Component.Introducntion.Feature1":
         "チャット・レイド・ホストをしてくれた人を記録し、好きなときにシャウトアウトを行うことができます。",
     "Component.Introducntion.Feature2":
@@ -26,6 +26,11 @@ const messages = {
     "Component.Install.Button": "最新版をダウンロード",
     // History
     "Component.History.Header": "更新履歴",
+    "Component.History.v0.4.0-1": "「Streaid」に改名",
+    "Component.History.v0.4.0-2": "依存ライブラリの更新",
+    "Component.History.v0.4.0-3": "和英辞書データの最適化（容量削減）",
+    "Component.History.v0.3.2": "依存ライブラリの修正",
+    "Component.History.v0.3.1": "和英辞書コマンドの追加",
     "Component.History.v0.3.0-1": "依存ライブラリの更新",
     "Component.History.v0.3.0-2":
         "レイド時のユーザ名・表示名を別々に取得するように修正",
@@ -55,7 +60,7 @@ const messages = {
     // Author
     "Component.Author.Header": "作者",
     "Component.Author.Description": "Author",
-    "Component.Author.HelpText": `※ もし不具合など見つかりましたら<a href="https://github.com/sushat4692/twitch-support-tool/issues" target="_blank" rel="noreferrer" class="link-text">GitHubのIssue</a>やTwitchやTwitterのDMを送っていただければ確認するようにいたします。`,
+    "Component.Author.HelpText": `※ もし不具合など見つかりましたら<a href="https://github.com/sushat4692/streaid/issues" target="_blank" rel="noreferrer" class="link-text">GitHubのIssue</a>やTwitchやTwitterのDMを送っていただけますと幸いです。`,
 };
 
 export default messages;

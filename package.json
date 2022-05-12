@@ -1,6 +1,6 @@
 {
-  "name": "twitch-support-tool-doc",
-  "version": "0.3.0",
+  "name": "streaid-doc",
+  "version": "0.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
