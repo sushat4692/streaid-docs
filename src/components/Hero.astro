@@ -1,0 +1,15 @@
+---
+interface Props {
+    appName: string;
+    tagline: string;
+}
+
+const { appName, tagline } = Astro.props;
+---
+
+<header class="hero">
+    <div class="hero__inner">
+        <h1 class="hero__title">{appName}</h1>
+        <p class="hero__subtitle">{tagline}</p>
+    </div>
+</header>

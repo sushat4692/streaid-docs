@@ -1,0 +1,29 @@
+---
+interface Props {
+    header: string;
+    description: string;
+    button: string;
+    requirements: string;
+    note: string;
+}
+
+const { header, description, button, requirements, note } = Astro.props;
+---
+
+<section class="section">
+    <div class="section__inner">
+        <h2 class="headline">{header}</h2>
+        <p class="lead">{description}</p>
+        <a
+            class="button button--large"
+            href="https://github.com/sushat4692/streaid/releases/latest"
+            target="_blank"
+            rel="noreferrer"
+        >
+            <i class="bi bi-download list__item__icon"></i>
+            {button}
+        </a>
+        <p class="help-text">{requirements}</p>
+        <p class="help-text">{note}</p>
+    </div>
+</section>

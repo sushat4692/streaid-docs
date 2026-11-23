@@ -1,0 +1,27 @@
+---
+import { history, type HistoryLocale } from "../data/history";
+
+interface Props {
+    header: string;
+    locale: HistoryLocale;
+}
+
+const { header, locale } = Astro.props;
+const format = (text: string) => text.replace(/`([^`]+)`/g, "<code>$1</code>");
+---
+
+<section class="section">
+    <div class="section__inner">
+        <h2 class="headline">{header}</h2>
+        {history.map((entry) => (
+            <div>
+                <h3 class="headline--sub">v{entry.version}</h3>
+                <ul class="list">
+                    {entry[locale].map((item) => (
+                        <li class="list__item" set:html={format(item)} />
+                    ))}
+                </ul>
+            </div>
+        ))}
+    </div>
+</section>

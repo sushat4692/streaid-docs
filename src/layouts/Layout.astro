@@ -1,0 +1,38 @@
+---
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "../styles/global.css";
+
+interface Props {
+    lang: string;
+    title: string;
+    description: string;
+    alternate: string;
+}
+
+const { lang, title, description, alternate } = Astro.props;
+
+const origin = Astro.site ?? Astro.url.origin;
+const canonical = new URL(Astro.url.pathname, origin);
+const alternateUrl = new URL(alternate, origin);
+---
+
+<!doctype html>
+<html lang={lang}>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
+        <link rel="alternate" hreflang={lang === "ja" ? "en" : "ja"} href={alternateUrl} />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonical} />
+        <meta name="twitter:card" content="summary" />
+    </head>
+    <body>
+        <slot />
+    </body>
+</html>

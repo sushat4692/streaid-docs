@@ -1,0 +1,35 @@
+---
+interface Props {
+    header: string;
+    helpText: string;
+}
+
+const { header, helpText } = Astro.props;
+---
+
+<section class="section">
+    <div class="section__inner">
+        <h2 class="headline">{header}</h2>
+        <p class="lead">SUSH (sushat4692)</p>
+
+        <ul class="author-links">
+            <li>
+                <a href="https://www.twitch.tv/sushat4692" target="_blank" rel="noreferrer">
+                    <i class="bi bi-twitch"></i> Twitch
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/sushat4692" target="_blank" rel="noreferrer">
+                    <i class="bi bi-twitter"></i> Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/sushat4692" target="_blank" rel="noreferrer">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+            </li>
+        </ul>
+
+        <p class="help-text" set:html={helpText} />
+    </div>
+</section>

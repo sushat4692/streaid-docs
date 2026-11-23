@@ -1,0 +1,20 @@
+---
+interface Props {
+    header: string;
+    description: string;
+    features: string[];
+}
+
+const { header, description, features } = Astro.props;
+const format = (text: string) => text.replace(/`([^`]+)`/g, "<code>$1</code>");
+---
+
+<section class="section">
+    <div class="section__inner">
+        <h2 class="headline">{header}</h2>
+        <p class="lead">{description}</p>
+        <ul class="list">
+            {features.map((feature) => <li class="list__item" set:html={format(feature)} />)}
+        </ul>
+    </div>
+</section>

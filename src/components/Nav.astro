@@ -1,0 +1,27 @@
+---
+import { site, type Locale } from "../data/site";
+
+interface Props {
+    locale: Locale;
+}
+
+const { locale } = Astro.props;
+const copy = site[locale];
+const switchHref = locale === "en" ? "/jp/" : "/";
+---
+
+<nav class="nav" aria-label="Main">
+    <a
+        class="button button--outline"
+        href="https://github.com/sushat4692/streaid"
+        target="_blank"
+        rel="noreferrer"
+    >
+        <i class="bi bi-github list__item__icon"></i>
+        {copy.nav.repository}
+    </a>
+    <a class="button button--outline" href={switchHref}>
+        <i class="bi bi-translate list__item__icon"></i>
+        {copy.nav.switch}
+    </a>
+</nav>
