@@ -6,9 +6,22 @@ export interface HistoryEntry {
     ja: string[];
 }
 
-export const latest = "0.7.0";
+export const latest = "0.7.1";
 
 export const history: HistoryEntry[] = [
+    {
+        version: "0.7.1",
+        en: [
+            "Updated Rust dependencies and reduced build artifact size.",
+            "Replaced the app icon with the new Icon Composer design.",
+            "Added a feature overview to the dashboard and improved sidebar navigation.",
+        ],
+        ja: [
+            "Rust依存ライブラリを更新し、ビルド成果物のサイズを削減。",
+            "Icon Composerで新しいアプリアイコンに刷新。",
+            "ダッシュボードに機能概要を追加し、サイドバー操作を改善。",
+        ],
+    },
     {
         version: "0.7.0",
         en: [
